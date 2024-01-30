@@ -16,7 +16,8 @@ pip install adapy
 ## Usage
 Here's a quick example of how to use AdaBoostKit:
 ```python
-from AdaBoostKit import Adaboost, DecisionStump
+from adapy.boost import Adaboost
+from adapy.learners import StumpClassifier
 from sklearn.datasets import make_classification
 import numpy as np
 
