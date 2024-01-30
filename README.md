@@ -1,4 +1,4 @@
-# AdaBoostKit
+# PyAdaBoost
 
 AdaBoostKit is a Python package providing an efficient and user-friendly implementation of the AdaBoost algorithm, designed for both educational purposes and practical applications in machine learning.
 
@@ -8,9 +8,9 @@ AdaBoostKit is a Python package providing an efficient and user-friendly impleme
 - Easy-to-use interface for training AdaBoost models and making predictions.
 
 ## Installation
-To install AdaBoostKit, simply run:
+To install `pyBoost`, simply run:
 ```bash
-pip install AdaBoostKit
+pip install byBoost
 ```
 
 ## Usage
