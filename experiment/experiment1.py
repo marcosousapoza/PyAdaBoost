@@ -1,9 +1,9 @@
 from boost.adaboost import Adaboost
-from boost.learners import DecisionStump
+from learners.stump import DecisionStump
 import numpy as np
 
 
-if __name__ == '__main__':
+def run():
     from sklearn.datasets import make_classification
     from sklearn.metrics import accuracy_score
     import matplotlib.pyplot as plt

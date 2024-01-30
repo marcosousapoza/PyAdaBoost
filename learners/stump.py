@@ -1,4 +1,4 @@
-from boost.learners.base import WeakLearner
+from .base import WeakLearner
 import numpy as np
 
 class DecisionStump(WeakLearner):

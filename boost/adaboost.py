@@ -1,6 +1,6 @@
 
 from typing import Any, List
-from adaboost.learners.base import WeakLearner
+from learners.base import WeakLearner
 import numpy as np
 
 
