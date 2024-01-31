@@ -1,10 +1,12 @@
 # AdaPy
-AdaPy is a Python package providing an efficient and user-friendly implementation of the AdaBoost algorithm, designed for both educational purposes and practical applications in machine learning.
+AdaPy is a Python package providing a user-friendly implementation of the AdaBoost algorithm, designed for educational purposes. The algorithm is built on the concept of exponential loss as it was first introduced by Yoav Freund and Robert Schapire in 1995 [1](https://doi.org/10.1007%2F3-540-59119-2_166).
+
 
 ## Features
-- Implementation of the AdaBoost algorithm with a focus on clarity and efficiency.
+- Implementation of the AdaBoost algorithm with a focus on clarity.
 - Includes a basic Decision Stump weak learner, with the flexibility to integrate other weak learners.
 - Easy-to-use interface for training AdaBoost models and making predictions.
+
 
 ## Installation
 To install `adapy`, simply run:
@@ -35,3 +37,7 @@ y_pred = ada.predict(X)
 ## Requirements
 - Python 3.x
 - NumPy
+
+
+## Contributions
+Feel free to add more feetures. Just sent me a PR and I will add it.
