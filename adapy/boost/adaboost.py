@@ -1,6 +1,6 @@
 
 from typing import Any, List
-from learners.base import WeakLearner
+from adapy.learners.base import WeakLearner
 import numpy as np
 
 
@@ -46,9 +46,3 @@ class Adaboost:
             y_pred = h.predict(X)
             r_sum += a * y_pred
         return np.sign(r_sum)
-    
-
-def exponential_loss(y_true, y_pred):
-    return np.sum(np.exp(-y_true * y_pred))
-
-

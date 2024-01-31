@@ -1,6 +1,5 @@
 # AdaPy
-
-AdaBoostKit is a Python package providing an efficient and user-friendly implementation of the AdaBoost algorithm, designed for both educational purposes and practical applications in machine learning.
+AdaPy is a Python package providing an efficient and user-friendly implementation of the AdaBoost algorithm, designed for both educational purposes and practical applications in machine learning.
 
 ## Features
 - Implementation of the AdaBoost algorithm with a focus on clarity and efficiency.
@@ -26,7 +25,7 @@ X, y = make_classification(n_samples=100, n_features=2, n_informative=2, n_redun
 y = np.where(y == 0, -1, 1)  # Convert labels to {-1, +1}
 
 # Initialize and train AdaBoost with DecisionStumps
-ada = Adaboost(k=10, estimator=DecisionStump)
+ada = Adaboost(k=10, estimator=DecisionStump())
 ada.fit(X, y)
 
 # Make predictions

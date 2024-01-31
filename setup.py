@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='adapy',
+    name='adaboost',
     version='0.1.0',
     author='Marco Sousa-Poza',
     author_email='marco.sousapoza@gmail.com',

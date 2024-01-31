@@ -1,5 +1,5 @@
-from boost.adaboost import Adaboost
-from learners.stump import DecisionStump
+from adapy.boost import Adaboost
+from learners import DecisionStump
 import numpy as np
 
 
