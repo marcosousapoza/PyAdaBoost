@@ -1,5 +1,5 @@
 # AdaPy
-AdaPy is a Python package providing a user-friendly implementation of the AdaBoost algorithm, designed for educational purposes. The algorithm is built on the concept of exponential loss as it was first introduced by Yoav Freund and Robert Schapire in 1995 [1](https://doi.org/10.1007%2F3-540-59119-2_166).
+AdaPy is a Python package providing a user-friendly implementation of the AdaBoost algorithm, designed for educational purposes. The algorithm is built on the concept of exponential loss as it was first introduced by Yoav Freund and Robert Schapire in 1995 [[1]](https://doi.org/10.1007%2F3-540-59119-2_166).
 
 
 ## Features
